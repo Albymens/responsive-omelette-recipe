@@ -3,16 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
     <title>Frontend Mentor | Recipe page</title>
     <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
 
       @font-face {
-        font-family: 'Young Serif' ;
-        src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+        font-family: "Young Serif";
+        src: url("./assets/fonts/young-serif/OFL.txt");
         font-weight: 400;
       }
 
@@ -22,16 +37,15 @@
 
       body {
         background-color: antiquewhite;
-        font-family: 'Young Serif', serif;
+        font-family: "Young Serif", serif;
       }
 
       .content {
         width: 80%;
         margin: auto;
-        background-color:  hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
         padding: 15px;
         border-radius: 10px;
-        /* font-family: serif; */
       }
 
       .content img {
@@ -49,7 +63,7 @@
         padding: 10px 18px;
       }
 
-     li {
+      li {
         padding: 5px;
       }
 
@@ -66,23 +80,22 @@
         padding: 8px;
       }
 
-       td:nth-child(2){
-         color:  hsl(14, 45%, 36%);
-         font-weight: 700 ;
-       }
-
-      @media (min-width : 800px){
-      .content {
-        width: 50%;
+      td:nth-child(2) {
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
       }
-    }
 
-     @media (min-width : 1200px){
-      .content {
-        width: 30%;
+      @media (min-width: 800px) {
+        .content {
+          width: 50%;
+        }
       }
-    }
 
+      @media (min-width: 1200px) {
+        .content {
+          width: 30%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -142,7 +155,7 @@
           <b>Enjoy:</b>Serve hot, with additional salt and pepper if needed.
         </li>
       </ul>
-             <hr />
+      <hr />
       <h3>Nutrition</h3>
       <p>
         The table below shows nutritional values per serving without the
@@ -170,9 +183,11 @@
       </table>
     </div>
 
-    <div class="attribution" style="padding: 15px 10px 0px;  width: 80%; margin: auto;">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a>. Coded by <a href="#">Alberta Mensah</a>.
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Alberta Mensah</a>.
     </div>
   </body>
 </html>
